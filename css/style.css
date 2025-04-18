@@ -1,0 +1,724 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Coda&family=Diplomata&family=Great+Vibes&family=Inconsolata:wght@200..900&family=Ingrid+Darling&family=LXGW+WenKai+TC&family=Lavishly+Yours&family=Marck+Script&family=Meow+Script&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mrs+Saint+Delafield&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Underdog&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body {
+       font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.container_menu {
+    background-color: black;
+}
+.container_inner {
+    margin: 0 auto;
+    width: 1470px;
+}
+.menu_5 {
+    width: 1440px;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container1 {
+     
+    width:100%;
+    height: 100vh;
+    background:  linear-gradient(90deg, rgba(15,10,10,0.75) 10%, rgba(10,10,10,0.5)41%, rgba(10,3,3,0.9) 100%, rgba(10,4,4,0.8) 100%), url('../img/фон_1.png'); /* Изменен путь */
+    background-size: cover;
+    background-position: center;
+    }
+
+
+.container_second {
+    margin: 0 auto;
+    width: 1470px;
+    }
+
+.menu {
+    padding-top: 20px;
+    width: 1440px;
+    height:90px;
+    background-color: #1a1515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon_text img {
+    padding-top: 20px;
+     width: 128px;
+    height:128px;
+}
+.nav_menu {
+    display: flex;
+    align-items: center;
+}
+.vhod_reg {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.vhod {
+    margin-right: 5px;
+}
+.vhod a {
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.reg a {
+    font-size:20px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+.img1, .img2, .img3 {
+    margin-left: 30px;
+}
+
+.image_text {
+    display: flex;
+}
+.image img {
+    width:603px;
+    height:584px;
+}
+.text p {
+    width: 639px;
+    height:672px;
+    line-height: 30px;
+    font-size:28px;
+    margin-left: 200px;
+    color: #FF0011;
+}
+.image_text {
+    padding-top: 50px;
+}
+.btn {
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+    display: block;
+    padding: 30px 150px;
+    background: #6A0007;
+    outline: none;
+    user-select: none;
+    border-radius: 35px;
+    font-size: 40px;
+    text-transform: uppercase;
+    transition:0.2s;
+}
+.btn:hover {
+    background-color: #9A0606;
+
+}
+.btn:active {
+    transform: translate(0, 4px);
+}
+.image_button  {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+.image_button a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.container2 {
+    width:100%;
+    height: 100vh;
+    background:  linear-gradient(90deg, rgba(15,10,10,0.75) 10%, rgba(10,10,10,0.5)41%, rgba(10,3,3,0.9) 100%, rgba(10,4,4,0.8) 100%), url('../img/фон_8.jfif'); /* Изменен путь */
+    background-size: cover;
+    background-position: center;
+    }
+
+
+.container_second_2 {
+    margin: 0 auto;
+    width: 1470px;
+    }
+
+.menu2 {
+    padding-top: 20px;
+    width: 1440px;
+    height:90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_text img {
+    padding-top: 20px;
+}
+.nav_menu {
+    display: flex;
+    align-items: center;
+}
+.vhod_reg {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.vhod {
+    margin-right: 5px;
+}
+.vhod a {
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.reg a {
+    font-size:20px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+.img1, .img2, .img3 {
+    margin-left: 30px;
+}
+
+.poisk_lypa {
+    padding-top: 100px;
+     display: flex;                  
+    justify-content: center; 
+    padding-bottom: 100px;     
+    align-items: center; 
+}
+
+.lypa img{
+    margin-left: 40px;
+}
+
+
+.tovar_inner {
+    display: flex;
+    justify-content: space-around;
+}
+.tovar {
+    display: flex;               
+    flex-direction: column;      
+    align-items: center;         
+    text-align: center;          
+    margin-right: 30px;         
+}
+
+.img_1 {
+    width:196px;
+    height:261px;
+}
+.img_2 {
+    width:174px;
+    height:261px;
+}
+.img_3 {
+    width:261px;
+    height:261px;
+}
+.img_4 {
+     width:261px;
+    height:261px;
+}
+
+.btn2 {
+    font-weight: bold;           
+    color: black;                
+    margin: 40px 0;              
+    padding: 10px 50px;         
+    background: white;        
+    outline: none;             
+    user-select: none;            
+    font-size: 20px;            
+    text-transform: uppercase;     
+    transition: 0.2s;            
+    display: block;             
+}
+.btn2:hover {
+    background-color: #9A0606;
+
+}
+.btn2:active {
+    transform: translate(0, 4px);
+}
+.korzina {
+    width: 24px;                 
+    height: auto;            
+    margin-top: 10px;         
+}
+.korzina {
+    width:48px;
+} 
+
+
+.container3 {
+    width:100%;
+    height: 100vh;
+    background:  linear-gradient(90deg, rgba(15,10,10,0.5) 10%, rgba(10,10,10,0.2)41%, rgba(10,3,3,0.7) 100%, rgba(10,4,4,0.8) 100%), url('../img/фон_3.png'); /* Изменен путь */
+    background-size: cover;
+    background-position: center;
+    }
+
+
+.container_second_3 {
+    margin: 0 auto;
+    width: 1470px;
+    }
+
+.menu3 {
+    padding-top: 20px;
+    width: 1440px;
+    height:90px;
+     background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.photo_opisanie {
+    display: flex;
+    padding-top: 40px; 
+}
+
+.opisanie_2 {
+    display: flex;
+    flex-direction: column;
+     margin-left: 250px;
+
+}
+
+.btn3 {
+    width: 559px;
+    height:221px;       
+    color: black;               
+    margin: 40px 0;             
+    padding: 10px 50px;          
+    background: #AEAEAE;         
+    outline: none;                
+    user-select: none;         
+    font-size: 24px;              
+    text-transform: uppercase;     
+    transition: 0.2s;            
+    display: block;              
+}
+
+
+.btn4  {
+    width: 559px;
+    height:101px;
+    color: black;
+     padding-left: 50px;                /* Цвет текста */
+              
+    padding: 10px 30px;          /* Внутренние отступы */
+    background: #AEAEAE;            /* Цвет фона кнопки */
+    outline: none;                /* Убираем обводку */
+    user-select: none; 
+      font-size: 24px;           /* Запрет на выделение текста */              /* Размер шрифта */
+    text-transform: uppercase;     /* Преобразует текст в верхний регистр */
+    transition: 0.2s;             /* Плавный переход для эффектов при наведении */
+    display: block;               /* Устанавливаем блочное отображение для кнопки */
+}
+.btn4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block {
+    align-items: center;
+    display: flex;
+    padding: 10px 30px;         
+    background: #595959;          
+    outline: none;               
+    user-select: none; 
+      font-size: 24px;           
+    text-transform: uppercase;    
+    transition: 0.2s;   
+     border-radius: 35px;         
+            
+
+}
+.block img {
+    width:56px;
+    
+}
+.btn4 p {
+    font-size:40px;
+    color:black;
+    margin-left: 20px;
+}
+
+.photo_image {
+    text-align: center;
+}
+
+.photo {
+    padding-bottom: 40px;
+}
+
+.photo img {
+    width:382px;
+    height: 509px;
+}
+
+.imgg1, .imgg2, .imgg3 {
+    margin-left: 20px;
+    height: 216px;
+    width: 162px;
+}
+
+
+.container4 {
+    width:100%;
+    height: 100vh;
+    background:   url('../img/фон_8.jfif'); 
+    background-size: cover;
+    background-position: center;
+    }
+
+
+.container_second_4 {
+    margin: 0 auto;
+    width: 1470px;
+    }
+
+.menu4 {
+    padding-top: 20px;
+    width: 1440px;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block_inner {
+    padding-top: 30px;
+}
+.block_img_text {
+    display: flex;
+    justify-content: space-between;
+
+}
+.block_block {
+    display: flex;
+    padding-bottom: 100px;
+}
+.block_block img {
+    max-width:200px;
+    max-height: 261px;
+}
+
+.btn9 {
+    width:278px;
+    height: 63px;
+    font-weight: bold;         
+    color: black;                 
+    padding: 10px 50px;        
+    background: white;          
+    outline: none;            
+    user-select: none;         
+    font-size: 20px;             
+    text-transform: uppercase;    
+    transition: 0.2s;        
+    display: block;             
+}
+.btn8 {
+    font-weight: bold;       
+    color: black;              
+    margin: 20px 0;              
+    padding: 5px 5px;         
+    background: white;          
+    outline: none;              
+    user-select: none;          
+    font-size: 20px;              
+    text-transform: uppercase;    
+    transition: 0.2s;           
+    display: block;             
+}
+.btn7 {
+    
+    font-weight: bold;            /* Жирный шрифт */
+    color: black;                 /* Цвет текста */
+    margin: 20px 0;              /* Отступы сверху и снизу для кнопки */
+    padding: 5px 5px;          /* Внутренние отступы */
+    background: white;            /* Цвет фона кнопки */
+    outline: none;                /* Убираем обводку */
+    user-select: none;            /* Запрет на выделение текста */
+    font-size: 20px;              /* Размер шрифта */
+    text-transform: uppercase;     /* Преобразует текст в верхний регистр */
+    transition: 0.2s;             /* Плавный переход для эффектов при наведении */
+    display: block;               /* Устанавливаем блочное отображение для кнопки */
+}
+.block_pp {
+    display: flex;
+}
+
+.btn7 img {
+    width: 15px;
+    height: 15px;
+}
+.btn8 img {
+    width: 15px;
+    height: 15px;
+}
+.block_pp p{
+    margin-right: 20px;
+}
+.block_btn1 {
+    margin-left: 30px;
+}
+.block_btn2 {
+    margin-left: 55px;
+}
+
+.summa {
+    margin-right: 200px;
+
+}
+
+.btn10 {
+
+    width:477px;
+    height:340px;         
+    color: white;                
+    margin: 20px 0;            
+    padding: 10px 50px;        
+    background: #6A0007;           
+    outline: none;               
+    user-select: none;       
+    font-size: 24px;              
+    text-transform: uppercase;    
+    transition: 0.2s;             
+    display: block;             
+}
+
+.btn13 {
+
+     width: 310px;
+    height:50px;    
+    color: black;                 
+    background: white;          
+    outline: none;            
+    user-select: none;           
+    font-size: 24px;            
+    text-transform: uppercase;
+    transition: 0.2s;            
+    display: block;           
+}
+
+.btn12 {
+
+    width: 310px;
+    height:50px;    
+    color: black;              
+    background: white;            
+    outline: none;              
+    user-select: none;         
+    font-size: 24px;             
+    transition: 0.2s;           
+    display: block;             
+}
+
+.btn14 {
+     margin-left: 10px;
+     width: 130px;
+    height:21px;   
+    color: black;                 
+    background: white;           
+    outline: none;                
+    user-select: none;          
+    font-size: 24px;             
+    transition: 0.2s;           
+    display: block;               
+}
+.btn16 {
+    margin-left: 10px;
+    width: 130px;
+    height:21px;    
+    color: black;                
+    background: white;          
+    outline: none;               
+    user-select: none;            
+    font-size: 24px;             
+    transition: 0.2s;            
+    display: block;               
+}
+.class {
+    display: flex;
+}
+
+.btn15 {
+
+    width:477px;
+    height:126px;        
+    color: white;                 
+    padding: 10px 50px;          
+    background: #6A0007;            
+    outline: none;                
+    user-select: none;            
+    font-size: 24px;              
+    text-transform: uppercase;    
+    transition: 0.2s;            
+    display: block;              
+}
+
+.text6 {
+    padding-top: 20px;
+}
+
+.container5 {
+    width:100%;
+    height: 100vh;
+    background:   url('../img/фон_5.png');
+    background-size: cover;
+    background-position: center;
+    }
+
+
+.container_second_5 {
+    margin: 0 auto;
+    width: 1470px;
+    }
+.menu5 {
+    padding-top: 20px;
+    width: 1440px;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vhod2 a{
+     font-weight: bold;
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+}
+
+.reg2 a{
+     font-weight: bold;
+     font-size:20px;
+    color:black;
+    text-decoration: none;
+}
+
+.text2 {
+    text-align: center;
+    padding-top:50px;
+}
+.text2 p{
+    font-size: 60px;
+    color:black;
+}
+
+
+.btn17 {
+    text-align: center;
+    width: 760px;
+    height: 71px;
+    color: white;
+    margin-top: 40px;
+    display: block;
+    padding-top: 13px;
+    background: black;
+    outline: none;
+    user-select: none;
+    border-radius: 35px;
+    font-size: 35px;
+    transition:0.2s;
+}
+.btn18 {
+    width: 380px;
+    height: 71px;
+    color: white;
+    margin-top: 40px;
+    display: block;
+    padding-top: 13px;
+    background: black;
+    outline: none;
+    user-select: none;
+    border-radius: 35px;
+    font-size: 35px;
+    transition:0.2s;
+}
+.button-container {
+    padding-top: 70px;
+  display: flex;
+  flex-direction: column;    
+  align-items: center;       
+  justify-content: center;     
+  gap: 15px;                 
+}
+.button-container p{
+    text-align: center;
+}
+
+
+.input-field {
+    background-color: white;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    width: 760px; /* или 380px для поля пароля, если хотите */
+    height: 71px;
+    border: none;
+    border-radius: 35px;
+    font-size: 35px;
+    
+    margin-top: 15px; /* отступ между меткой и полем ввода */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* для эффекта тени */
+    transition: 0.2s;
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 136, 255, 1); /* цвет фокуса. Измените по необходимости */
+}
+
+.conta {
+    background:   url('../img/фон_4.png'); 
+}
+.conta_inner {
+    margin: 0 auto;
+    width: 1470px;
+}
+.foot2 {
+   
+    display: flex;
+    justify-content: space-between;
+}
+.photoimg img{
+    margin-right: 20px;
+}
+
+.foot3 {
+    justify-content: space-between;
+    display: flex;
+    width: 1440px;
+    height:90px;
+    align-items: center;
+}
+
+
+.container_footer {
+    background-color: black;
+}
+
+.container_footer_inner {
+    margin: 0 auto;
+    width: 1470px;
+}
+
